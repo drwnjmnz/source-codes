@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+/*cascading style sheet for the whole html*/
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+/*cascading style sheet for the headings html*/
+.content{
+  margin: auto;
+  width: 100%;
+}
+
+.content .info h2{
+  color: #305a72;
+  font-size: 50px;
+  text-shadow: 2px 2px #1a323f;
+  text-transform: uppercase;
+  font-weight: 800;
+  letter-spacing: 2px;
+  line-height: 60px;
+}
+
+.content .info h2 span{
+  color: #fff;
+  font-size:10px;
+  font-weight: 600;
+}
+
+.content .info p{
+  font-size: 16px;
+  font-weight: 500;
+  margin-bottom: 5px;
+}
+
+h1{
+  padding: 20px 100px;
+  text-shadow: 2px 2px #dc9f69;
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 50px;
+  font-weight: 700;
+  text-transform: uppercase;
+  margin: 30px 0;
+  text-align:center;
+}
+
+/*style of the form and the buttons*/
+.form{
+	max-width: 600px;
+	background: #FAFAFA;
+	padding: 15px;
+	margin: 15px auto;
+	box-shadow: 1px 1px 25px rgba(0, 0, 0, 0.35);
+	border-radius: 10px;
+	border: 6px solid #305A72;
+}
+.form input[type="button"]{
+  background: #305A72;
+	padding: 8px 20px 8px 20px;
+	border-radius: 5px;
+	color: #fff;
+	text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.12);
+	border: 1px solid #257C9E;
+	font-size: 15px;
+  
+}
+
+/*style for computation table part of the program*/
+h3{
+  color: #305A72;
+  font-size: 25px;
+  font-weight: 50;
+  text-transform: uppercase;
+  text-align:center;
+}
+
+.computation{
+	max-width: 6000px;
+	background: #FAFAFA;
+	padding: 30px;
+	margin: 50px auto;
+	box-shadow: 1px 1px 25px rgba(0, 0, 0, 0.35);
+	border-radius: 10px;
+	border: 6px solid #305A72;
+}
+
+/*table css*/
+  table, th, td {
+    border: 2px solid #305A72;
+    border-collapse: collapse;
+  }
+  th, td {
+    color: #305A72;
+    padding: 5px;
+    text-align: center;
+  }
+  .computation{
+      margin-top:25px ;
+  }
+  .label{
+    margin: left 25px;px
+  }
+
+  

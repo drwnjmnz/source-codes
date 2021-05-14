@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tax Computer</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css">
+  </head>
+  <body>
+    <div class="content">
+        <div class="info">
+            <h2 style="text-align:center">TAX COMPUTER</h2>
+            <p style="text-align:center"> A program by Darwin Jimenez that helps to compute the income tax payable by earning Filipino individual and business organizations on yearly basis</p>
+            </div>
+            </div>
+        <form class="form"> 
+            <label for="income">Monthly Income</label><br>
+            <input type="text" id="income" name="income" placeholder="50000"><br>
+            <label for="Dependents">Number of Dependents (Old parents & Children below 21 yrs old).</label><br>
+            <input type="text" id="Dependents" name="Dependents" placeholder="2"><br>
+            <label for="insurance">Are you a government worker? [1] for Yes [2] for  No</label><br>
+            <input type="text" id="insurance" name="Dependents" placeholder="1"><br><br>
+            <input type="button" value="Calculate" name="calculate" id="calculate" /><br>
+          </form>
+        <div class="computation">
+        <table style="width:100%">
+            <h3>Computation Table</h3>
+            <tr>
+              <th>Monthly Income</th>
+              <th>Insurance</th>
+              <th>PhilHealth</th>
+              <th>PagIBIG</th>
+              <th>Personal Exemption</th>
+              <th>Number of Dependents</th>
+              <th>APE</th>
+              <th>Gross Income with 13th Month Pay</th>
+              <th>Total Deductions</th>
+              <th>Taxable Income</th>
+              <th>Payable Tax</th>
+            </tr>
+            <tr>
+              <td><div id="Mincome">-</div></td>
+              <td><div id="Insurance">-</div></td>
+              <td><div id="PhilHealth">-</div></td>
+              <td><div id="PagIBIG">-</div></td>
+              <td><div id="Personal Exemption">-</td>
+              <td><div id="Ndependent">-</td>
+              <td><div id="APE">-</div></td>
+              <td><div id="Gross Income">-</div></td>
+              <td><div id="Total Deduction">-</div></td>
+              <td><div id="Taxable Income">-</div></td>
+              <td><div id="Payable Tax">-</div></td>
+            </tr>
+          </table>
+          </div>
+          <script src=java.js></script>
+    </body>
+</html>

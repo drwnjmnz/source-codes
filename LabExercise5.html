@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Laboratory Exercise 5</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css">
+  </head>
+  <body>
+    <div class="content">
+        <div class="info">
+            <h1 style="text-align:center">Laboratory Exercise 5</h1>
+            <p style="text-align:center"> Decimal to Binary Converter & Palindrome Checker</p>
+            </div>
+            </div>
+        <div class="form">
+            <h2 style="text-align:center">DECIMAL TO BINARY</h2>
+            <label for="bit" class="dd">Enter number of Bits:</label><br>
+            <input type="text" id="bit"><br>
+            <label for="decimal" class="dd">Decimal Number:</label><br>
+            <input type="text" id="decimal"><br><br>
+            <button type="button" onclick="Convert()" id="con">Convert</button>
+            <button type="button" onclick="Reset()" id="reset">Reset</button><br><br>
+            <label for="bin" class="dd">Binary Number:</label><br>
+            <input type="text" id="bin">
+        </div>
+        <form class="form">
+            <h2 style="text-align:center">Palindrome Checker</h2>
+            <label for="bit" class="dd">Enter the string to be checked:</label><br>
+            <input type="text" id="string" size="50" ><br><br>
+            <button type="button" onclick="Palindrome()">Check</button><br><br>
+            <label for="bin" class="dd">Result</label><br>
+            <input size="50" type="text" id="result">
+        </form>
+          <script src="javascript.js"></script>
+    </body>
+</html>
